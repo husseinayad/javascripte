@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="javascript">
+		
+     	var ayad=prompt("entrer un nombre positif");
+	if(ayad<0){
+		
+	var ayad=prompt('Erreur veuiller saisir un nombre positif ') ;
+		
+	}
+
+var i=1;
+	var Tab=new Array();
+	while(i<=ayad){
+		Tab[i]=prompt("saisir numero"+i);
+	     i++;
+	}
+	document.write("les valeurs saisis sont");
+	for (i=1; i<=ayad; i++){
+		document.write(" "+Tab[i]+" ");
+	}
+
+
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
